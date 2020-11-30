@@ -1,6 +1,4 @@
 import React from 'react'
-import Form from 'react-bootstrap'
-import Jobs from './Jobs'
 import {StyleSheet,Text,View,Button} from 'react-native'
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
@@ -31,11 +29,11 @@ function jobPosting({navigation}) {
     return (
         <View style = {styles.container}>
             <Text>Post a Job</Text>
-            <Text>Job Title:</Text>
-            <Text>Offer:</Text>
-            <Text>Location:</Text>
-            <Text>Date and Time:</Text>
-            <Text>Notes:</Text>
+            <Text>Job Title: *Enter Text Here*</Text>
+            <Text>Offer: *Enter Text Here*</Text>
+            <Text>Location: *Enter Text Here*</Text>
+            <Text>Date and Time: *Enter Text Here*</Text>
+            <Text>Notes: *Enter Text Here*</Text>
             <Button title="Submit" onPress={() => navigation.navigate('Job Submitted')}/>
         </View>
     )
