@@ -146,7 +146,7 @@ function App() {
         <Stack.Screen name="Post a Job" component={jobPosting} />
         <Stack.Screen name="Job Submitted" component={jobSubmitted} />
         <Stack.Screen name="Current Jobs Posted" component={viewCurrentJobsPoster} />
-        <Stack.Screen name="Previous Jobs Posted" component={viewPastJobsPoster} />
+        <Stack.Screen name="Past Jobs Posted" component={viewPastJobsPoster} />
         <Stack.Screen name="Poster Account Information" component={viewAccountInformationPoster} />
         <Stack.Screen name="Worker Account" component={parasolWorker} />
         <Stack.Screen name="Current Jobs" component={viewCurrentJobsWorker} />
