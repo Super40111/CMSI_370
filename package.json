@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "https://Super40111.github.io/myapp",
+  "homepage": "https://Super40111.github.io/test.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
