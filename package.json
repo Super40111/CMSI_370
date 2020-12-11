@@ -7,7 +7,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d myapp.js"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
